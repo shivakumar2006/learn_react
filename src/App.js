@@ -3,26 +3,21 @@ import './App.css';
 const Person = (props) => {
   return (
     <>
-    <h1>Name: {props.Name}</h1>
-    <h1>Last Name: {props.LastName}</h1>
-    <h1>Age: {props.Age}</h1>
+     <h1>Name : {props.name}</h1>
+     <h1>Last Name : {props.lastName}</h1>
+     <h1>Age : {props.age}</h1>
     </>
-  );
+  )
 }
 
 const App = () => {
-  const name = 'Shiva';
-  
-
   return (
-    <div className="App">
-     <Person Name = {'Vishal'} LastName = {'Kumar'} Age = {17} />
-    <br />
-     <Person Name = {'Shiva'} LastName = {'Kumar'} Age = {18} />
-    <br />
-     <Person Name = {'Priyam'} LastName = {'Tiwari'} Age = {20} />
+    <div className='App'>
+      <Person name = 'Shiva' lastName = 'Kumar' age = '18' />
+      <br />
+      <Person name = 'Vishal' lastName = 'Kumar' age = '17' />
     </div>
-  );
+  )
 }
 
 export default App;
