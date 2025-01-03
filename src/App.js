@@ -6,13 +6,7 @@ import MovieCard from "./MovieCard";
 const API_URL = 'https://www.omdbapi.com?apikey=d0f60f2e';
 
 
-const movie = {
-    "Title": "Fighting, Flying and Driving: The Stunts of Spiderman 3",
-    "Year": "2007",
-    "imdbID": "tt1132238",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNTI3NDE1ZmEtMTRiMS00YTY4LTk0OGItNjY4YmI0MDM4OGM4XkEyXkFqcGdeQXVyODE2NDgwMzM@._V1_SX300.jpg"
-}
+
 
 const App = () => {
 
